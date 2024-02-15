@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "pause-and-quiet-autoplay",
+    "description": "A browser extension to prevent autoplay and lower the volume of videos",
+    "version": "1.0",
+    "icons": {
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "action": {
+        "default_popup": "default.html",
+        "default_icon": "images/icon-48.png"
+    },
+    "host_permissions": ["https://*.youtube.com/*"]
+}
